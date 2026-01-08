@@ -11,8 +11,14 @@
   background-color: #30b868;
   color: white;
   border-radius: 5px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #279e57;
+  box-shadow: 0 5px 40px rgba(48, 184, 104, 0.4);
 }
 
+/* Navbar */
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -25,4 +31,31 @@
   display: flex;
   gap: 30px;
   align-items: center;
+}
+
+/* Banner Section */
+.Banner {
+  background: url(../image/hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 163px;
+  align-items: center;
+  text-align: center;
+}
+
+.badge {
+  gap: 20px;
+}
+
+.dot {
+  width: 22px;
+  height: 22px;
+  background: #2ecc71;
+}
+
+.badge span {
+  color: #2e7d4f;
+  font-size: 18px;
+  font-weight: 500;
 }
