@@ -175,3 +175,50 @@
   color: #627382;
   font-size: 16px;
 }
+
+/* Second Brain */
+
+.Second-Container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 60px;
+  align-items: center;
+  margin: 100px 150px;
+}
+
+.Second-Container img {
+  border-radius: 15px;
+}
+
+.Second-content span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #30b868;
+  margin-bottom: 20px;
+}
+.Second-content h2 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 58px;
+  color: #001931;
+  margin-bottom: 20px;
+}
+
+.Second-content .Ptag {
+  max-width: 600px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+}
+
+.CheckCircle {
+  margin-top: 40px;
+}
+
+.CheckCircle p {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 16px;
+  gap: 10px;
+}
