@@ -29,7 +29,6 @@
 .nav-container {
   display: flex;
   justify-content: space-between;
-  margin: 10px;
   padding: 24px 120px;
   align-items: center;
 }
@@ -49,12 +48,8 @@
 
 /* Banner Section */
 .Banner {
-  background: url(../image/hero-bg.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 163px;
-  align-items: center;
+  min-height: 90vh;
+  background: url("../image/hero-bg.png") center/cover no-repeat;
   text-align: center;
 }
 
@@ -64,6 +59,7 @@
   border-radius: 1000px;
   padding: 8px 12px 8px 12px;
   cursor: pointer;
+  margin-top: 162px;
 }
 
 .badge span {
@@ -114,7 +110,6 @@
   border: 1.5px solid #bdbbbb;
   border-radius: 5px;
   cursor: pointer;
-
   margin-left: 12px;
 }
 
@@ -127,4 +122,28 @@
   background: rgba(255, 255, 255, 0.1);
   border-color: #ffffff;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Noates Section */
+
+.Noates {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.card-text h1 {
+  color: #001931;
+  font-style: Bold;
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.card-text p {
+  color: #627382;
+  font-size: 16px;
+}
+
+/* .card-container{} */
+
+.card {
 }
