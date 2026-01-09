@@ -143,7 +143,35 @@
   font-size: 16px;
 }
 
-/* .card-container{} */
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 24px 120px;
+}
 
 .card {
+  padding: 30px 33px;
+  max-width: 270px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+.card img {
+  width: 35px;
+  height: 35px;
+  background: #ff5a5a;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.card h3 {
+  color: #001931;
+  font-style: 600;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #627382;
+  font-size: 16px;
 }
