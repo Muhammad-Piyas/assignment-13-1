@@ -5,7 +5,10 @@
 
 .btn {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   border: none;
   padding: 15px 10px;
   background-color: #30b868;
@@ -16,6 +19,10 @@
 .btn:hover {
   background-color: #279e57;
   box-shadow: 0 5px 40px rgba(48, 184, 104, 0.4);
+}
+.icon {
+  font-size: 18px;
+  text-align: center;
 }
 
 /* Navbar */
@@ -32,6 +39,13 @@
   gap: 30px;
   align-items: center;
 }
+.txt a {
+  color: #242424;
+  text-decoration: none;
+}
+.txt a:hover {
+  color: #279e57;
+}
 
 /* Banner Section */
 .Banner {
@@ -45,17 +59,72 @@
 }
 
 .badge {
-  gap: 20px;
-}
-
-.dot {
-  width: 22px;
-  height: 22px;
-  background: #2ecc71;
+  font-size: 18px;
+  border: none;
+  border-radius: 1000px;
+  padding: 8px 12px 8px 12px;
+  cursor: pointer;
 }
 
 .badge span {
   color: #2e7d4f;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
+}
+
+.badge:hover {
+  background-color: #e6f4ec;
+}
+
+.badge:hover span {
+  color: #1b5e20;
+}
+.badge-text {
+  font-size: 50px;
+  font-weight: 700;
+  color: #30b868;
+  margin: 20px 0;
+}
+.text {
+  color: white;
+}
+
+.Banner p {
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.btn-text {
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 10px;
+  background: transparent;
+  color: #ffffff;
+  border: 1.5px solid #bdbbbb;
+  border-radius: 5px;
+  cursor: pointer;
+
+  margin-left: 12px;
+}
+
+.icon-2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.btn-text:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
 }
